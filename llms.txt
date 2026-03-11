@@ -3,7 +3,7 @@
 > Automatic GPS mileage tracking for iPhone. Calculates CRA (Canada) and IRS (US) tax deductions.
 
 ## App Store
-- Download: https://apps.apple.com/app/mileage-receipts-tracker/id6746136612
+- Download: https://apps.apple.com/app/id6755660279
 - Platform: iOS (iPhone)
 - Price: Free (premium optional)
 - Version: 1.1
