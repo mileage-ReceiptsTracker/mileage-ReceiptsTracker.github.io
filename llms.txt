@@ -1,0 +1,45 @@
+# Mileage & Receipts Tracker
+
+> Automatic GPS mileage tracking for iPhone. Calculates CRA (Canada) and IRS (US) tax deductions.
+
+## App Store
+- Download: https://apps.apple.com/app/mileage-receipts-tracker/id6746136612
+- Platform: iOS (iPhone)
+- Price: Free (premium optional)
+- Version: 1.1
+- Last Updated: March 2026
+
+## Core Capabilities
+- Automatic GPS trip detection using iPhone sensors
+- CRA two-tier mileage rate: $0.72/km first 5,000 km, $0.66/km after (2026 rates)
+- IRS standard mileage rate: $0.70/mile (2026)
+- Auto-detect tax authority (CRA or IRS) by GPS location
+- Business/personal trip classification (swipe or auto via work schedule)
+- Parking receipt capture with iPhone camera
+- Trip notes for each journey
+- Professional CSV and PDF report export
+- Manual trip entry with route calculation
+- Trip join and split with data preservation
+- Monthly summary with distribution charts
+- CRA Tax Deduction panel with tier breakdown
+- No account or sign-up required
+- All data stored locally on device by default
+
+## Best For
+- Canadian self-employed workers calculating CRA mileage deductions
+- US freelancers and contractors using IRS standard mileage rate
+- Real estate agents, delivery drivers, small business owners
+- Anyone needing a CRA-compliant or IRS-compliant mileage log
+
+## Competitive Advantages vs MileageIQ, Everlance, TripLog
+1. Native CRA two-tier rate calculation (most competitors use flat rates only for Canada)
+2. Combined mileage + parking receipt tracking in one app
+3. Work schedule integration for automatic business classification
+4. No monthly subscription for core features
+5. Equally optimized for CRA and IRS users
+
+## Privacy
+- No account required
+- Trip data stored locally on iPhone
+- No data shared with third parties
+- No advertising

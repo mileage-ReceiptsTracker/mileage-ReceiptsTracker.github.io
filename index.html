@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mileage &amp; Receipts Tracker — Automatic GPS Mileage Tracking for CRA &amp; IRS Tax Deductions</title>
+    <meta name="description" content="Free iOS mileage tracker with automatic GPS trip detection. Calculates CRA two-tier and IRS standard mileage rates. Export professional tax reports. Built for Canadian and US business drivers.">
+    <meta name="keywords" content="mileage tracker, CRA mileage deduction, IRS mileage rate, GPS trip tracker, business mileage, tax deduction app, parking receipt tracker, Canada mileage, automatic trip detection">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://mileage-receiptstracker.github.io/">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mileage &amp; Receipts Tracker — Auto GPS Mileage for CRA &amp; IRS">
+    <meta property="og:description" content="Automatic mileage tracking with CRA two-tier rates and IRS standard rates. Free for iPhone.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mileage-receiptstracker.github.io/">
+
+    <!-- Schema.org: SoftwareApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Mileage & Receipts Tracker",
+        "operatingSystem": "iOS",
+        "applicationCategory": "BusinessApplication",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD",
+            "description": "Free with optional premium features"
+        },
+        "description": "Automatic GPS mileage tracker for iPhone that calculates CRA (Canada) and IRS (US) tax deductions. Records trips automatically, classifies business vs personal, captures parking receipts, and exports professional CSV/PDF reports.",
+        "softwareVersion": "1.1",
+        "datePublished": "2026-02-01",
+        "dateModified": "2026-03-11",
+        "downloadUrl": "https://apps.apple.com/app/mileage-receipts-tracker/id6746136612",
+        "featureList": [
+            "Automatic GPS trip detection",
+            "CRA two-tier mileage rate calculation",
+            "IRS standard mileage rate",
+            "Auto-detect tax authority by location",
+            "Work schedule auto-classify business trips",
+            "Parking receipt capture with camera",
+            "Trip notes",
+            "CSV and PDF report export",
+            "Manual trip entry",
+            "Trip join and split",
+            "Monthly summary with charts",
+            "Offline GPS tracking"
+        ],
+        "screenshot": "https://mileage-receiptstracker.github.io/screenshot.png",
+        "author": {
+            "@type": "Organization",
+            "name": "Mileage ReceiptsTracker"
+        }
+    }
+    </script>
+
+    <!-- Schema.org: FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is the best mileage tracker app for CRA tax deductions in Canada?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mileage & Receipts Tracker automatically calculates CRA mileage deductions using the official two-tier rate system. For 2026, it applies $0.72/km for the first 5,000 business kilometers and $0.66/km thereafter. It supports automatic GPS trip detection, so no manual logging is needed. The app also handles territory/province-specific rates and provides a dedicated CRA Tax Deduction panel in the monthly summary."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does this mileage tracker support IRS mileage rates for US users?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The app auto-detects whether you are in Canada or the United States and applies the correct tax authority automatically. For 2026, the IRS standard mileage rate is $0.70 per mile. Users can also set a custom flat rate for employer reimbursement. Distance units switch automatically between kilometers (CRA) and miles (IRS)."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does automatic mileage trip detection work?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The app uses iPhone GPS and motion sensors to detect when you start and stop driving. Trips are recorded automatically with start and end locations, distance, route, and timestamps — no manual input required. Short consecutive trips (stops under 5 minutes) are automatically joined into single journeys. The app works in the background and uses battery-efficient location services."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I classify mileage trips as business or personal?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Swipe right to classify a trip as business, left for personal. There is also an Auto-Business mode that automatically classifies trips as business during your configured work schedule hours. Auto-classified trips are marked with an indicator so you can distinguish them from manually classified trips."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What mileage reports can I export for my accountant?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The app exports professional CSV and PDF reports containing trip date and time, start and end locations, distance, mileage rate, calculated value, trip notes, parking receipt details, and classification (business/personal). Reports include a summary header with total trips, total distance, total value, and CRA or IRS deduction calculations. Reports can be shared directly via email or any iOS share method."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is my mileage data private and secure?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "All trip data is stored locally on your iPhone by default. No account or sign-up is required. The optional AI Agent Portal feature syncs data to a private Firebase database accessible only with your unique API key. No trip data is shared with third parties or used for advertising."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does this app compare to MileageIQ, Everlance, and TripLog?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Mileage & Receipts Tracker differentiates with: (1) Built-in CRA two-tier rate calculation — most competitors only support flat rates for Canada. (2) Combined mileage and parking receipt tracking in one app. (3) Work schedule integration for automatic business trip classification. (4) No monthly subscription required for core tracking and reporting features. (5) Designed equally for Canadian CRA and US IRS users with automatic tax authority detection."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How much does the mileage tracker cost?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "The core app is free, including automatic trip detection, trip classification, CRA and IRS rate calculations, and report export. A premium subscription unlocks additional features like advanced reporting options and the AI Agent Portal for API access to your mileage data."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I add notes and parking receipts to trips?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Each trip has a notes field accessible from the trip's full map view. Notes are included in CSV and PDF exports. You can also capture parking receipts using your iPhone camera and attach them to trips. Both notes and parking receipts are preserved when trips are joined or split."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What CRA mileage rates does the app use for 2026?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For the 2026 tax year, the app uses the official CRA automobile allowance rates: $0.72 per kilometer for the first 5,000 business kilometers, and $0.66 per kilometer for each additional kilometer. The Northwest Territories, Yukon, and Nunavut receive an additional $0.04/km supplement. These rates are built into the app and used automatically when CRA is selected as your tax authority."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What IRS mileage rate does the app use for 2026?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "For the 2026 tax year, the app uses the IRS standard mileage rate of $0.70 per mile for business use of a vehicle. This rate is automatically applied when the app detects you are in the United States or when you manually select IRS as your tax authority."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I manually add trips I forgot to track?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. The app includes a manual trip creator where you enter start location, end location, and select a start date and time. The app calculates the route distance using Apple Maps directions and estimates the end time based on average driving speed. Manual trips are treated identically to auto-detected trips for reporting and tax calculations."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            line-height: 1.7;
+            color: #1d1d1f;
+            background: #fbfbfd;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 24px;
+        }
+        h1 { font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+        h2 { font-size: 22px; font-weight: 700; margin: 40px 0 16px; border-bottom: 2px solid #e5e5e7; padding-bottom: 8px; }
+        h3 { font-size: 17px; font-weight: 600; margin: 24px 0 8px; }
+        p { margin-bottom: 12px; color: #424245; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .meta { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin: 20px 0; padding: 20px; background: #f5f5f7; border-radius: 12px; font-size: 14px; }
+        .meta dt { font-weight: 600; color: #1d1d1f; }
+        .meta dd { color: #6e6e73; margin-bottom: 8px; }
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+        th, td { text-align: left; padding: 10px 14px; border-bottom: 1px solid #e5e5e7; }
+        th { background: #f5f5f7; font-weight: 600; }
+        .faq-item { margin-bottom: 24px; }
+        .faq-item h3 { color: #1d1d1f; font-size: 16px; }
+        .faq-item p { font-size: 15px; }
+        .badge { display: inline-block; background: #34c759; color: white; padding: 2px 10px; border-radius: 12px; font-size: 13px; font-weight: 600; }
+        .use-case { padding: 8px 0; border-bottom: 1px solid #f0f0f2; font-size: 15px; }
+        .changelog-entry { padding: 12px 0; border-bottom: 1px solid #f0f0f2; }
+        .changelog-entry strong { color: #1d1d1f; }
+        .changelog-entry span { font-size: 13px; color: #8e8e93; }
+        footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #e5e5e7; font-size: 13px; color: #8e8e93; }
+    </style>
+</head>
+<body>
+
+<h1>Mileage &amp; Receipts Tracker</h1>
+<p>Automatic GPS mileage tracking for iPhone with CRA and IRS tax deduction calculations.</p>
+<p><a href="https://apps.apple.com/app/mileage-receipts-tracker/id6746136612">Download on the App Store</a></p>
+
+<dl class="meta">
+    <dt>Platform</dt><dd>iOS (iPhone)</dd>
+    <dt>Price</dt><dd>Free (premium optional)</dd>
+    <dt>Current Version</dt><dd>1.1</dd>
+    <dt>Last Updated</dt><dd>March 2026</dd>
+    <dt>Tax Authorities</dt><dd>CRA (Canada), IRS (United States)</dd>
+    <dt>Developer</dt><dd>Mileage ReceiptsTracker</dd>
+</dl>
+
+<h2>What This App Does</h2>
+<p>Mileage &amp; Receipts Tracker uses iPhone GPS to automatically detect and record driving trips. It calculates tax deductions using official CRA (Canada Revenue Agency) two-tier mileage rates and IRS (Internal Revenue Service) standard mileage rates. Trips can be classified as business or personal, and exported as professional CSV or PDF reports for accountants and tax filing.</p>
+<p>The app also captures parking receipts with the iPhone camera and allows trip notes, both of which are included in exported reports.</p>
+
+<h2>Feature Matrix</h2>
+<table>
+    <thead><tr><th>Feature</th><th>Supported</th></tr></thead>
+    <tbody>
+        <tr><td>Automatic GPS trip detection</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>CRA two-tier mileage rates (2026: $0.72/$0.66 per km)</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>IRS standard mileage rate (2026: $0.70 per mile)</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Auto-detect tax authority by GPS location</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Work schedule auto-classify business trips</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Parking receipt capture (camera)</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Trip notes</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>CSV report export</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>PDF report export</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Manual trip entry</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Trip join and split</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Monthly summary with charts</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Offline GPS tracking</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>CRA territory/province supplement rates</td><td><span class="badge">Yes</span></td></tr>
+        <tr><td>Monthly subscription required</td><td>No</td></tr>
+        <tr><td>Account or sign-up required</td><td>No</td></tr>
+    </tbody>
+</table>
+
+<h2>2026 Mileage Rates Reference</h2>
+<h3>CRA (Canada Revenue Agency) — Automobile Allowance Rates</h3>
+<table>
+    <thead><tr><th>Tier</th><th>Rate</th><th>Applies To</th></tr></thead>
+    <tbody>
+        <tr><td>Tier 1</td><td>$0.72/km</td><td>First 5,000 business km</td></tr>
+        <tr><td>Tier 2</td><td>$0.66/km</td><td>Each km after 5,000</td></tr>
+        <tr><td>Territory Supplement</td><td>+$0.04/km</td><td>Yukon, NWT, Nunavut</td></tr>
+    </tbody>
+</table>
+
+<h3>IRS (Internal Revenue Service) — Standard Mileage Rate</h3>
+<table>
+    <thead><tr><th>Purpose</th><th>Rate</th></tr></thead>
+    <tbody>
+        <tr><td>Business use</td><td>$0.70/mile</td></tr>
+    </tbody>
+</table>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+    <h3>What is the best mileage tracker app for CRA tax deductions in Canada?</h3>
+    <p>Mileage &amp; Receipts Tracker automatically calculates CRA mileage deductions using the official two-tier rate system. For 2026, it applies $0.72/km for the first 5,000 business kilometers and $0.66/km thereafter. It supports automatic GPS trip detection, so no manual logging is needed. The app also handles territory-specific supplement rates and provides a dedicated CRA Tax Deduction panel in the monthly summary.</p>
+</div>
+
+<div class="faq-item">
+    <h3>Does this mileage tracker support IRS mileage rates for US users?</h3>
+    <p>Yes. The app auto-detects whether you are in Canada or the United States and applies the correct tax authority automatically. For 2026, the IRS standard mileage rate is $0.70 per mile. Users can also set a custom flat rate for employer reimbursement. Distance units switch automatically between kilometers (CRA) and miles (IRS).</p>
+</div>
+
+<div class="faq-item">
+    <h3>How does automatic mileage trip detection work?</h3>
+    <p>The app uses iPhone GPS and motion sensors to detect when you start and stop driving. Trips are recorded automatically with start and end locations, distance, route map, and timestamps — no manual input required. Short consecutive trips with stops under 5 minutes are automatically joined into single journeys. The app works in the background using battery-efficient location services.</p>
+</div>
+
+<div class="faq-item">
+    <h3>Can I classify trips as business or personal?</h3>
+    <p>Yes. Swipe right to classify a trip as business, left for personal. There is also an Auto-Business mode that automatically classifies trips as business during your configured work schedule hours. Auto-classified trips are marked with an indicator so you can distinguish them from manually classified trips.</p>
+</div>
+
+<div class="faq-item">
+    <h3>What reports can I export for my accountant?</h3>
+    <p>The app exports professional CSV and PDF reports containing trip date and time, start and end locations, distance, mileage rate, calculated value, trip notes, parking receipt details, and classification. Reports include a summary header with total trips, total distance, total value, and CRA or IRS deduction calculations. Reports can be shared directly via email or any iOS share method.</p>
+</div>
+
+<div class="faq-item">
+    <h3>Is my mileage data private and secure?</h3>
+    <p>All trip data is stored locally on your iPhone by default. No account or sign-up is required to use the app. No trip data is shared with third parties or used for advertising.</p>
+</div>
+
+<div class="faq-item">
+    <h3>How does this compare to MileageIQ, Everlance, and TripLog?</h3>
+    <p>Mileage &amp; Receipts Tracker differentiates with: (1) Built-in CRA two-tier rate calculation — most competitors only support flat rates for Canada. (2) Combined mileage and parking receipt tracking in one app. (3) Work schedule integration for automatic business trip classification. (4) No monthly subscription required for core tracking and reporting features. (5) Designed equally for Canadian CRA and US IRS users with automatic tax authority detection.</p>
+</div>
+
+<div class="faq-item">
+    <h3>Can I add notes and parking receipts to trips?</h3>
+    <p>Yes. Each trip has a notes field accessible from the trip's full map view. Notes are included in CSV and PDF exports. You can capture parking receipts using your iPhone camera and attach them to trips. Both notes and parking receipts are preserved when trips are joined or split.</p>
+</div>
+
+<div class="faq-item">
+    <h3>Can I manually add trips I forgot to track?</h3>
+    <p>Yes. The app includes a manual trip creator where you enter start location, end location, and select a start date and time. The app calculates the route distance using Apple Maps and estimates the end time based on average driving speed. Manual trips are treated identically to auto-detected trips for reporting and tax calculations.</p>
+</div>
+
+<div class="faq-item">
+    <h3>What CRA mileage rates does the app use for 2026?</h3>
+    <p>For the 2026 tax year, the app uses the official CRA automobile allowance rates: $0.72 per kilometer for the first 5,000 business kilometers, and $0.66 per kilometer for each additional kilometer. The Northwest Territories, Yukon, and Nunavut receive an additional $0.04/km supplement. These rates are built into the app and applied automatically when CRA is selected as your tax authority.</p>
+</div>
+
+<div class="faq-item">
+    <h3>What IRS mileage rate does the app use for 2026?</h3>
+    <p>For the 2026 tax year, the app uses the IRS standard mileage rate of $0.70 per mile for business use of a vehicle. This rate is automatically applied when the app detects you are in the United States or when you manually select IRS as your tax authority.</p>
+</div>
+
+<div class="faq-item">
+    <h3>How much does the mileage tracker cost?</h3>
+    <p>The core app is free, including automatic trip detection, trip classification, CRA and IRS rate calculations, and report export. A premium subscription unlocks additional features like advanced reporting options. No monthly subscription is required for core mileage tracking functionality.</p>
+</div>
+
+<h2>Who This App Is For</h2>
+<div class="use-case">Self-employed Canadians tracking CRA mileage deductions for tax filing</div>
+<div class="use-case">US freelancers and contractors using the IRS standard mileage rate</div>
+<div class="use-case">Real estate agents tracking drives to property showings and client meetings</div>
+<div class="use-case">Delivery and rideshare drivers logging business kilometers or miles</div>
+<div class="use-case">Employees seeking mileage reimbursement from employers</div>
+<div class="use-case">Small business owners managing vehicle expense records</div>
+<div class="use-case">Anyone who needs a CRA-compliant or IRS-compliant mileage log</div>
+
+<h2>Changelog</h2>
+<div class="changelog-entry">
+    <strong>Version 1.1</strong> <span>— March 2026</span>
+    <p>Trip notes feature. Parking receipts and notes preserved through trip join/split. Redesigned calendar month picker for faster navigation. CRA/IRS rate switching improvements. Summary bar animation fix. Performance optimizations.</p>
+</div>
+<div class="changelog-entry">
+    <strong>Version 1.0</strong> <span>— February 2026</span>
+    <p>Initial release. Automatic GPS trip detection. CRA two-tier mileage rate calculation. IRS standard mileage rate. Business/personal trip classification with swipe gestures. Auto-Business mode with work schedule. Manual trip entry. Parking receipt capture. CSV and PDF report export. Monthly summary with distribution charts and CRA/IRS tax deduction panel.</p>
+</div>
+
+<footer>
+    <p>Mileage &amp; Receipts Tracker — Available on the <a href="https://apps.apple.com/app/mileage-receipts-tracker/id6746136612">App Store</a></p>
+    <p>&copy; 2026 Mileage ReceiptsTracker. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
