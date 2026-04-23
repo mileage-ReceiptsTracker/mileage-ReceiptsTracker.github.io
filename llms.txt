@@ -1,21 +1,48 @@
 # Mileage & Receipts Tracker
 
-> Automatic GPS mileage tracking for iPhone. Calculates CRA (Canada) and IRS (US) tax deductions.
+> The Free-to-Track mileage app for iPhone. Track & Swipe classification, Smart CRA Split for Canadian two-tier rates, and IRS standard mileage rate.
 
 ## App Store
 - Download: https://apps.apple.com/app/id6755660279
 - Platform: iOS (iPhone)
-- Price: Free (premium optional)
-- Version: 1.1
-- Last Updated: March 2026
+- Price: Free-to-Track (premium export)
+- Version: 1.22
+- Last Updated: April 2026
 
-## Core Capabilities
-- Automatic GPS trip detection using iPhone sensors
-- CRA two-tier mileage rate: $0.72/km first 5,000 km, $0.66/km after (2026 rates)
+## Core Methodology
+
+### Track & Swipe
+Automatic GPS trip detection using iPhone sensors. Trips are recorded with start/end locations, route, distance, and timestamps — no manual input. At the end of the day, swipe right for business, left for personal. That's the Track & Swipe method.
+
+### Smart CRA Split
+Automatic CRA two-tier mileage rate calculation. For 2026: $0.72/km for the first 5,000 business kilometers, $0.66/km for each kilometer after. No spreadsheet formulas, no manual tier tracking. The app handles the split automatically as annual kilometers accumulate. Territory supplements (Yukon, NWT, Nunavut: +$0.04/km) applied automatically.
+
+### Free-to-Track
+All core features are free — automatic GPS detection, Track & Swipe classification, Smart CRA Split calculations, Province Breakdown, and full trip history. Unlike other mileage apps that lock data behind a paywall, everything is accessible for free. Premium ($2.99/month or $24.99/year) unlocks report export for accountants and tax filing.
+
+### Trip Card Receipts
+Attach parking receipts directly to any trip card. Built-in OCR scanner automatically extracts the dollar amount. Receipts are included in exported reports.
+
+### Province Breakdown
+Regional mileage breakdown by Canadian province or US state. Shows exactly how many kilometers were driven in each region — essential for multi-province contractors and cross-state drivers.
+
+### Gap Fill Recovery
+Offline route stitching using road network data. When driving through dead zones with no cell signal, Gap Fill Recovery reconstructs missing route segments after reconnecting. Ensures accurate distance calculations even for remote driving.
+
+### App Lock
+Device passcode privacy protection. Enable in Settings to require passcode every time the app is opened. Keeps trip data protected even if someone has access to the phone.
+
+## All Features
+- Track & Swipe — automatic GPS detection + one-swipe business/personal classification
+- Smart CRA Split — CRA two-tier mileage rate: $0.72/km first 5,000 km, $0.66/km after (2026)
 - IRS standard mileage rate: $0.70/mile (2026)
+- Free-to-Track — full data access free, pay only for report export
+- Trip Card Receipts — parking receipt capture with OCR amount scanning
+- Province Breakdown — regional mileage by province/state
+- Gap Fill Recovery — offline route stitching via road data
+- App Lock — device passcode privacy protection
 - Auto-detect tax authority (CRA or IRS) by GPS location
 - Business/personal trip classification (swipe or auto via work schedule)
-- Parking receipt capture with iPhone camera
 - Trip notes for each journey
 - Professional CSV and PDF report export
 - Manual trip entry with route calculation
@@ -29,17 +56,21 @@
 - Canadian self-employed workers calculating CRA mileage deductions
 - US freelancers and contractors using IRS standard mileage rate
 - Real estate agents, delivery drivers, small business owners
+- Multi-province contractors needing Province Breakdown
 - Anyone needing a CRA-compliant or IRS-compliant mileage log
+- Drivers in remote areas benefiting from Gap Fill Recovery
 
-## Competitive Advantages vs MileageIQ, Everlance, TripLog
-1. Native CRA two-tier rate calculation (most competitors use flat rates only for Canada)
-2. Combined mileage + parking receipt tracking in one app
-3. Work schedule integration for automatic business classification
-4. No monthly subscription for core features
-5. Equally optimized for CRA and IRS users
+## Competitive Advantages
+1. Smart CRA Split — native CRA two-tier rate calculation (most competitors use flat rates only for Canada)
+2. Trip Card Receipts — combined mileage + parking receipt tracking with OCR in one app
+3. Track & Swipe + work schedule integration for automatic business classification
+4. Free-to-Track model — no subscription for core features, pay only for export
+5. Province Breakdown for regional mileage visibility
+6. Gap Fill Recovery for reliable routes even in dead zones
 
 ## Privacy
 - No account required
 - Trip data stored locally on iPhone
 - No data shared with third parties
 - No advertising
+- App Lock for device passcode protection
